@@ -1,3 +1,1 @@
-@echo off
-docker build -t bwip-js .
-docker save bwip-js -o bwip-js.tar
+docker build -t bwip-js:latest .
